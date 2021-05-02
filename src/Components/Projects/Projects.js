@@ -50,7 +50,7 @@ const allProjectDetails = [
         language: "React JS",
         img: footballFever,
         liveLink: "https://inspiring-borg-f17ba6.netlify.app/",
-        description: "The website related to show some details about Spanish Football Club.",
+        description: "The website related to show the details about Spanish Football Club.",
         githubLink: "https://github.com/SajibBarua-art/Football-Fever"
     },
     {
@@ -71,7 +71,7 @@ const Projects = () => {
             <div className="d-flex justify-content-center">
                 <div className="container row">
                     {
-                        allProjectDetails.map(project => <ProjectDetails project={project}></ProjectDetails>)
+                        allProjectDetails.map(project => <ProjectDetails key={project.id} project={project}></ProjectDetails>)
                     }
                 </div>
             </div>

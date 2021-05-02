@@ -53,8 +53,8 @@ const ProjectDetails = ({ project }) => {
                 }}
             >
                 <Fade in={open}>
-                    <div className={classes.paper}>
-                        <img src={project.img} style={{ height: '400px' }} alt="" />
+                    <div className={classes.paper} style={{width: '800px'}}>
+                        <img src={project.img} alt="" style={{width: '100%'}} />
                         <h2 id="transition-modal-title" className="text-center">{project.name}</h2>
                         <p id="transition-modal-description">{project.description}</p>
                         <h4>Language: {project.language}</h4>

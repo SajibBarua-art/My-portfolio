@@ -4,9 +4,9 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark fw-bold fs-5 navbar">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark fs-6 fw-bold navbar">
             <div className="ms-5 container-fluid">
-                <a className="navbar-brand" href="#"></a>
+                <h1>.</h1>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

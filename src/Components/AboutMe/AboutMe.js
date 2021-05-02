@@ -10,9 +10,8 @@ const AboutMe = () => {
         <div className="text-center">
             <img style={myImageStyle} className="rounded-circle" src={myImage} alt=""/>
             <h3 className="my-3">Who am I?</h3>
-            <p>
-                I have a pure attraction for becoming a full-stack web developer.
-                I have serious passion for developing user friendly website, creating intuitive, dynamic user experiences and problem solving.
+            <p className="text-secondary">
+                I am struggling to be a full-stack web developer. I have a serious passion for developing user-friendly websites, creating intuitive, dynamic user experiences, and problem-solving.
                 <br/> <a href="#">Let's make something special.</a>
             </p>
             

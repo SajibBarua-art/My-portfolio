@@ -37,7 +37,7 @@ const ProjectDetails = ({ project }) => {
             <img className='w-100' src={project.img} style={projectImgDetails} alt="" />
             <h1 className="text-center">
                 <button className="btn btn-info text-white fw-bolder" onClick={handleOpen}>
-                    More
+                    Details
                 </button>
             </h1>
             <Modal
@@ -59,8 +59,8 @@ const ProjectDetails = ({ project }) => {
                         <p id="transition-modal-description">{project.description}</p>
                         <h4>Language: {project.language}</h4>
                         <p className="text-center">
-                            <a href={project.liveLink} target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info me-3">Live Preview</button></a>
-                            <a href={project.githubLink} target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info ms-3">Github</button></a>
+                            <a href={project.liveLink} target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info me-3 fw-bolder">Live Preview</button></a>
+                            <a href={project.githubLink} target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-info ms-3 fw-bolder">Github</button></a>
                         </p>
                     </div>
                 </Fade>

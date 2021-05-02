@@ -66,8 +66,8 @@ const allProjectDetails = [
 
 const Projects = () => {
     return (
-        <div className="my-5">
-            <h1 className="text-brand text-center mb-5">Projects</h1>
+        <div id="portfolio" className="my-5 py-5" style={{backgroundColor: 'rgb(245, 245, 245)'}}>
+            <h1 className="text-brand text-center mb-5">PROJECTS</h1>
             <div className="d-flex justify-content-center">
                 <div className="container row">
                     {

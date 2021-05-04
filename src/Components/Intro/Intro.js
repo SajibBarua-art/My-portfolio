@@ -34,7 +34,7 @@ const Intro = () => {
                 <div className="center-all text-center text-info">
                     <p className="intro-font text-wrap">Hello, I'm Sajib Barua.<br /> I'm desperately wanted to be a full-stack web developer.</p>
                     <HashLink smooth to="#portfolio"><button className="btn btn-outline-light me-2">View my work</button></HashLink>
-                    <Link to="/Resume-Sajib-v2.pdf" target="_blank" download="Resume-SajibBarua.pdf"><button className="btn btn-outline-light ms-2">Download Resume</button></Link>
+                    <Link to="/Resume-Sajib-v3.pdf" target="_blank" download="Resume-SajibBarua.pdf"><button className="btn btn-outline-light ms-2">Download Resume</button></Link>
                 </div>
             </div>
         </div>
